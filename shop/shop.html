@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #111;
+            padding: 10px 20px;
+        }
+        .navbar-left, .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-left img {
+            height: 30px;
+        }
+        .navbar-left a {
+            margin-left: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-right img {
+            height: 24px;
+            margin-right: 10px;
+        }
+        .navbar-right .username {
+            color: #00f1ff;
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .navbar-right .dropdown {
+            background-color: #333;
+            border-radius: 5px;
+            padding: 5px 10px;
+            color: #fff;
+        }
+        .navbar-anim a {
+            display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+        }
+        .navbar-anim a:hover {
+            color: #680246;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="../images/LOGO 3RD 4Kx4K.png" alt="Anker Gank Logo">
+                <div class="navbar-anim">
+                    <a href="../index.html">HOME</a>
+                </div>
+                <div class="navbar-anim">
+                    <a href="../members/member.html">MEMBER</a>
+                </div>
+                <div class="navbar-anim">
+                    <a>SHOP</a>
+                </div>
+                <div class="navbar-anim">
+                    <a href="../support/support.html">SUPPORT</a>
+                </div>
+        </div>
+        <div class="navbar-right">
+            <img src="../images/user.png" alt="User Icon">
+            <span class="username">username</span>
+            <div class="dropdown">▼</div>
+        </div>
+    </div>
+</body>
+</head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .collection-item {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .collection-item img {
+            max-width: 100%;
+            height: auto;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .collection-item img:hover {
+            transform: scale(1.05);
+        }
+
+        .collection-item a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+        }
+
+        .collection-item a:hover {
+            color: #680246;
+        }
+
+        .collection-title {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>Selected Collection</h1>
+    </header>
+    <div class="container">
+        <div class="collection-item">
+            <a href="vol1.html">
+                <img src="../images/1ST FRONT.png" alt="vol1">
+                <div class="collection-title">Anker Gank Jersey 2019</div>
+                <div>Rp 175.000</div>
+            </a>
+        </div>
+
+        <div class="collection-item">
+            <a href="vol2.html">
+                <img src="../images/2ND FRONT.png" alt="vol2">
+                <div class="collection-title">Anker Gank Jersey 2021</div>
+                <div>Rp 250.000</div>
+            </a>
+        </div>
+
+        <div class="collection-item">
+            <a href="vol3.html">
+                <img src="../images/3RD FRONT.png" alt="vol3">
+                <div class="collection-title">Anker Gank Jersey 2022</div>
+                <div>Rp 250.000</div>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Anker Gank 2024</p>
+    </footer>
+</body>
+</html>

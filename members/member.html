@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #111;
+            padding: 10px 20px;
+        }
+        .navbar-left, .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-left img {
+            height: 30px;
+        }
+        .navbar-left a {
+            margin-left: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .navbar-right {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-right img {
+            height: 24px;
+            margin-right: 10px;
+        }
+        .navbar-right .username {
+            color: #00f1ff;
+            font-size: 14px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .navbar-right .dropdown {
+            background-color: #333;
+            border-radius: 5px;
+            padding: 5px 10px;
+            color: #fff;
+        }
+        .navbar-anim a {
+            display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+        }
+        .navbar-anim a:hover {
+            color: #680246;
+        }
+
+    </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #680246;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .mastahsuhu-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            justify-items: center;
+        }
+
+        .player-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .player-card {
+            width: 300px;
+            background-color: rgb(0, 0, 0);
+            border: 1px solid #680246;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+
+        .player-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .player-info {
+            padding: 10px;
+        }
+
+        .player-info h2 {
+            font-size: 1.1em;
+            margin: 10px 0;
+            color: #ffffff;
+        }
+
+        .player-info p {
+            color: #666;
+            margin: 0;
+        }
+
+        .player-card:hover {
+            transform: scale(1.05);
+        }
+
+        .player-card:active {
+            transform: translateY(10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="../images/LOGO 3RD 4Kx4K.png" alt="Anker Gank Logo">
+                <div class="navbar-anim">
+                    <a href="index.html">HOME</a>
+                </div>
+                <div class="navbar-anim">
+                    <a>MEMBER</a>
+                </div>
+                <div class="navbar-anim">
+                    <a href="../shop/shop.html">SHOP</a>
+                </div>
+                <div class="navbar-anim">
+                    <a href="../support/support.html">SUPPORT</a>
+                </div>
+        </div>
+        <div class="navbar-right">
+            <img src="../images/user.png" alt="User Icon">
+            <span class="username">username</span>
+            <div class="dropdown">▼</div>
+        </div>
+    </div>
+</body>
+</head>
+<body>
+    <header>
+        <h1>Anker Gank Member</h1>
+    </header>
+    <main>
+        <div class="mastahsuhu-container">
+            <div class="player-card">
+                <a href="members/aji.html">
+                <img src="../images/3rd. aji.png" alt="Player 1">
+                <div class="player-info">
+                </a>
+                    <h2>Syofwan Annajieb</h2>
+                    <p>Forward</p>
+                </div>
+            </div>
+    
+            <div class="player-card">
+                <a href="members/wahyu.html">
+                <img src="../images/3rd. wahyu.png" alt="Player 2">
+                <div class="player-info">
+                </a>
+                    <h2>Wahyu Adi Pratama</h2>
+                    <p>Defender</p>
+                </div>
+            </div>
+        </div>
+        <div class="player-container">
+            <div class="player-card">
+                <a href="members/mikmik.html">
+                <img src="../images/3rd. mikmik.png" alt="Player 3">
+                <div class="player-info">
+                </a>
+                    <h2>Mikhael Prawira Mandagi</h2>
+                    <p>Midfielder</p>
+                </div>
+            </div>
+    
+            <div class="player-card">
+                <a href="members/pais.html">
+                <img src="../images/3rd. pais.png" alt="Player 4">
+                <div class="player-info">
+                </a>
+                    <h2>Abu Faiz Nawabinur</h2>
+                    <p>Goalkeeper</p>
+                </div>
+            </div>
+    
+            <div class="player-card">
+                <a href="members/el.html">
+                <img src="../images/3rd. elang.png" alt="Player 5">
+                <div class="player-info">
+                </a>
+                    <h2>Elang Adiyansyah Saputra</h2>
+                    <p>Midfielder</p>
+                </div>
+            </div>
+    
+            <div class="player-card">
+                <a href="members/icad.html">
+                <img src="../images/3rd. irshad.png" alt="Player 6">
+                <div class="player-info">
+                </a>
+                    <h2>Muhammad Irshad</h2>
+                    <p>Midfielder</p>
+                </div>
+            </div>
+    
+            <div class="player-card">
+                <a href="members/chan.html">
+                <img src="../images/3rd. chandra.png" alt="Player 7">
+                <div class="player-info">
+                </a>
+                    <h2>Chandra Janua Bakti</h2>
+                    <p>Midfielder</p>
+                </div>
+            </div>
+    
+            <div class="player-card">
+                <a href="members/gan.html">
+                <img src="../images/3rd. gandhie.png" alt="Player 8">
+                <div class="player-info">
+                </a>
+                    <h2>Prabu Gandhie Adillah</h2>
+                    <p>Midfielder</p>
+                </div>
+            </div>
+    
+            <div class="player-card">
+                <a href="members/gab.html">
+                <img src="../images/3rd. gabriel.png" alt="Player 9">
+                <div class="player-info">
+                </a>
+                    <h2>Gabriel Stepano Mandagi</h2>
+                    <p>Midfielder</p>
+                </div>
+            </div>
+    
+            <div class="player-card">
+                <a href="members/joe.html">
+                <img src="../images/3rd. joe.png" alt="Player 10">
+                <div class="player-info">
+                </a>
+                    <h2>Joe Daniel Sumual</h2>
+                    <p>Midfielder</p>
+                </div>
+            </div>
+    
+            <div class="player-card">
+                <a href="members/piko.html">
+                <img src="../images/3rd. piko.png" alt="Player 11">
+                <div class="player-info">
+                </a>
+                    <h2>Serafitcho Satria Mandagi</h2>
+                    <p>Defender</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Anker Gank 2024</p>
+    </footer>
+</body>
+</html>
